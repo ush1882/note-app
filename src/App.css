@@ -1,0 +1,70 @@
+.center{
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+
+.center h1{
+  border-radius: 12%;
+}
+
+.notes{
+  background-image: image-set('ppp.png');
+background-position: 5px -25px;
+  text-align: center;
+  width: 300px;
+  flex-direction: column;
+  height: fit-content;
+  border-radius: 5%;
+}
+
+
+.input-and-button input{
+  width: 200px;
+  padding-top:5%;
+  display: flex;
+  margin: 5px 5px 5px 50px;
+  text-align: center;
+  border: 1px solid rgb(156, 151, 24);
+}
+
+
+.input-and-button textarea{
+  border: 1px solid rgb(156, 151, 24);
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px 5px 10px;
+  text-align: center;
+  padding-top:5%;
+}
+
+
+.input-and-button button{
+  text-align: center;
+  width: 100px;
+  background-color: rgb(241, 237, 121);
+  border: 2px solid rgb(110, 112, 0);
+  margin-bottom: 5px;
+}
+
+
+.note-item{
+  background-image: image-set('paper.jpeg');
+  margin: 40px 20px 10px 400px;
+  padding: 40px;
+  width: fit-content;
+  border-radius: 5%;
+  text-align: center;
+  width: 200px; 
+}
+
+
+.note-item button{
+  width: 20px;
+  border-radius: 50px;
+  border: none;
+  position: absolute;
+  left: 410px;
+  margin-top: 5px;
+}
